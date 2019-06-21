@@ -11,8 +11,7 @@ class Anagram
     anagram_array = []
     name_array = name.split("")
     name_array.sort
-    @word.split("")
-    @word.each do |letters|
+    word.each do |letters|
       letters.split("")
       letters.sort 
       if letters == name_array 
