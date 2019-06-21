@@ -16,6 +16,7 @@ class Anagram
       letter_array.sort 
       if letter_array == name_array 
         anagram_array << letters
+        binding.pry
       end 
     end 
     anagram_array
