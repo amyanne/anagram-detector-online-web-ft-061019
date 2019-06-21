@@ -10,14 +10,12 @@ class Anagram
   def match(word)
     anagram_array = []
     name_array = name.split("")
-    name_array.sort
+    name_array = name_array.sort
     word.each do |letters|
       letter_array = letters.split("")
-      letter_array.sort 
-      binding.pry
+     letter_array = letter_array.sort 
       if letter_array == name_array 
         anagram_array << letters
-        binding.pry
       end 
     end 
     anagram_array
