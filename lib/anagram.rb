@@ -11,6 +11,7 @@ class Anagram
     anagram_array = []
     name.split("")
     name.sort 
+    @word.split
     @word.each do |letters|
       letters.split("")
       letters.sort 
