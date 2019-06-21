@@ -13,6 +13,7 @@ class Anagram
     name_array.sort
     word.each do |letters|
       letters.split("")
+      binding.pry
       letters.sort 
       if letters == name_array 
         letters.join("")
