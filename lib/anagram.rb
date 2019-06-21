@@ -19,6 +19,5 @@ class Anagram
       end 
     end 
     anagram_array
-    binding.pry
  end 
 end 
