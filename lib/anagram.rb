@@ -7,7 +7,7 @@ class Anagram
     
   end 
   
-  def self.match
+  def match
     anagram_array = []
     name.split("")
     name.sort 
