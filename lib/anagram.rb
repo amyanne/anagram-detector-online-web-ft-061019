@@ -12,11 +12,10 @@ class Anagram
     name_array = name.split("")
     name_array.sort
     word.each do |letters|
-      letters.split("")
+      letter_array = letters.split("")
       binding.pry
-      letters.sort 
-      if letters == name_array 
-        letters.join("")
+      letter_array.sort 
+      if letter_array == name_array 
         anagram_array << letters
       end 
     end 
