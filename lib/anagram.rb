@@ -14,6 +14,7 @@ class Anagram
     word.each do |letters|
       letter_array = letters.split("")
       letter_array.sort 
+      binding.pry
       if letter_array == name_array 
         anagram_array << letters
         binding.pry
